@@ -1,0 +1,1 @@
+var app=angular.module("app").config(["$controllerProvider","$compileProvider","$filterProvider","$provide",function(a,b,c,d){app.controller=a.register,app.directive=b.directive,app.filter=c.register,app.factory=d.factory,app.service=d.service,app.constant=d.constant,app.value=d.value}])
