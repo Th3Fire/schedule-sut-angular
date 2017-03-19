@@ -1,0 +1,16 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">Time Table</div>
+  <div class="panel-body">
+      <table class="table-bordered">
+          
+          <tr ng-repeat="item in showTimeTableCtrl.data | unique: 'day'">
+              <td>{{item.day}}</td>
+          </tr>
+          <tbody>
+              <tr ng-repeat="data in showTimeTableCtrl.data">
+                  <td>{{data.name}}</td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
+</div>
