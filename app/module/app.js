@@ -1,2 +1,2 @@
 "use strict";
-angular.module("app", ["ngAnimate", "ngAria", "ngMaterial", "ngCookies", "ngMessages", "ngSanitize", "ngStorage", "ngResource", "ui.utils", "ui.router", "pascalprecht.translate", "oc.lazyLoad"]);
+angular.module("app", ["ngAnimate", "ngAria", "ngMaterial", "ngCookies", "ngMessages", "ngSanitize", "ngStorage", "ngResource", "ui.utils", "ui.router", "angularMoment", "pascalprecht.translate", "oc.lazyLoad"]);

@@ -47,7 +47,7 @@ app.service('showTimeTableService', ['$log', '$http', '$q', '$localStorage', fun
 
                 {
                     id : 5,
-                    name: 'cal II' ,
+                    name: 'Physics II' ,
                     day : 'Fr',
                     time: {
                         start : '09:00',
