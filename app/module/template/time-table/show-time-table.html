@@ -1,16 +1,18 @@
 <div class="panel panel-primary">
   <div class="panel-heading">Time Table</div>
   <div class="panel-body">
-      <table class="table-bordered">
+      <table class="table-bordered" align="center" border="1" cellspacing="2" cellpadding="2"style="border-collapse:collapse;">
+          <tr>
+              <td align="center" valign="middle" height="50">&nbsp;</td>
+              <!--<td ng-repeat="item in showTimeTableCtrl.data | unique: 'day'">{{item.day}}</td>-->
+              <td ng-repeat="item in showTimeTableCtrl.resultTime">{{item}}</td>
+          </tr>
           
           <tr ng-repeat="item in showTimeTableCtrl.data | unique: 'day'">
-              <td>{{item.day}}</td>
+             <td>{{item.day}}</td> 
+             <td colspan="2" ng-repeat="name in item">{{item.name}}</td>
           </tr>
-          <tbody>
-              <tr ng-repeat="data in showTimeTableCtrl.data">
-                  <td>{{data.name}}</td>
-              </tr>
-          </tbody>
+
       </table>
   </div>
 </div>
