@@ -7,7 +7,7 @@ app.service('showTimeTableService', ['$log', '$http', '$q', '$localStorage', fun
             mycourse = [
                 {
                     id : 1,
-                    name: 'cal I' ,
+                    name: 'COMPUTER SECURITY' ,
                     day : 'Mo',
                     time: {
                         start : '09:00',
@@ -17,7 +17,7 @@ app.service('showTimeTableService', ['$log', '$http', '$q', '$localStorage', fun
 
                {
                     id : 2,
-                    name: 'Eng I' ,
+                    name: 'COMPUTER NETWORKS' ,
                     day : 'Mo',
                     time: {
                         start : '13:00',
@@ -27,7 +27,7 @@ app.service('showTimeTableService', ['$log', '$http', '$q', '$localStorage', fun
 
                 {
                     id : 3,
-                    name: 'cal I' ,
+                    name: 'EMBEDDED SYSTEMS' ,
                     day : 'We',
                     time: {
                         start : '09:00',
@@ -37,7 +37,7 @@ app.service('showTimeTableService', ['$log', '$http', '$q', '$localStorage', fun
 
                 {
                     id : 4,
-                    name: 'Comp I' ,
+                    name: 'SOFTWARE ENGINEERING' ,
                     day : 'We',
                     time: {
                         start : '12:00',
